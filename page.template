@@ -1,0 +1,32 @@
+warning
+we_has_connection_to_ssh_port
+print_ip_connected_to_ssh_port
+
+warning
+inet_is_down
+echo probably connection to internet or dns server is down
+
+warning
+dummy_overlay_not_mounted
+echo probably dummy overlay is not mounted properly
+
+Addresses:
+print_external_addresses
+
+Local:
+print_list_local_computers
+
+Uptime:
+uptime
+
+Memory:
+print_memory_info
+
+spoilered
+Show system log:
+logread
+
+spoilered
+Show kernel log:
+dmesg
+
